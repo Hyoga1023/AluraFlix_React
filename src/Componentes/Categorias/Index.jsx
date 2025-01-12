@@ -19,7 +19,7 @@ function Categorias() {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        fetch('/challenge_final_a/data.json')
+        fetch('/Aluraflix_React/data.json')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Error al cargar los datos');
