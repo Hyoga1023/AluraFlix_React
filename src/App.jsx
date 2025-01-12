@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
     return (
-        <BrowserRouter basename="/challenge_final_a">
+        <BrowserRouter basename="/Aluraflix_React">
             <Header />
             <PruebaImagen/>
             <Routes>

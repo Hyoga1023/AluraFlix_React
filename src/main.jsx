@@ -7,7 +7,7 @@ import './index.css';
 const root = createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/challenge_final_a">
+    <BrowserRouter basename="/Aluraflix_React">
       <App />
     </BrowserRouter>
   </React.StrictMode>
