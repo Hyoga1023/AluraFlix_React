@@ -1,0 +1,20 @@
+body {
+    background: linear-gradient(180deg, #000000 0%,
+            #1a0a0a 50%,
+            #660000 75%,
+            #9b1414 85%,
+            #e50914 100%
+        ) no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Cambia de height a min-height */
+    font-family: 'Roboto Flex', sans-serif;
+    z-index: -1;
+}
+/* Puedes aplicar la fuente a otros elementos según necesites */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Flex', sans-serif;
+}

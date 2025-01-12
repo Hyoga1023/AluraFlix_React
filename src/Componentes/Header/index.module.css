@@ -1,0 +1,59 @@
+/* src/Componentes/Header/index.module.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #111;
+    color: white;
+    box-shadow: 0 0 10px 3px rgba(255, 0, 0, 0.5);
+}
+
+nav a {
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.link:hover {
+    background-color: rgb(173, 11, 11);
+    color: #000;
+    text-decoration: none;
+
+}
+.logo{
+    width: 17%;
+    height: auto;
+    transition: all 0.5s ease-in-out; /* Transición suave */
+}
+
+.logo:hover {
+    transform: scale(1.18); /* Opcional: aumenta un poco el tamaño para mayor énfasis */
+}

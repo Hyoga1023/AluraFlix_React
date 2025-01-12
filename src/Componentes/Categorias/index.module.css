@@ -1,0 +1,127 @@
+
+body {
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.categorias {
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.btn1{
+    background-color: #000;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 5px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: #353131;
+    color: #f3f1f1;
+}
+.btn2{
+    background-color: #ac2e25;
+    border: none;
+    border-radius: 10px;
+    color: #000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 5px;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: #86130d;
+    color: #f8f3f3;
+}
+
+.videoCard {
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
+    color: #ccc;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(240, 73, 73, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.videoCard .card-body {
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(240, 73, 73, 0.5);
+}
+/* src/Componentes/Categorias/index.module.css */
+
+/* src/Componentes/Categorias/index.module.css */
+
+.customModal {
+    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+}
+
+.customModalDialog {
+    max-width: 500px;
+    margin: 1.75rem auto;
+    background-color:transparent;
+}
+
+.customModalContent {
+    background-color: #333; /* Fondo del contenido del modal */
+    color: white; /* Color del texto del modal */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.customModalHeader {
+    background-color: #444; /* Fondo del encabezado del modal */
+    border-bottom: 1px solid #555;
+}
+
+.customModalTitle {
+    color: #fff; /* Color del título del modal */
+}
+
+.customModalBody {
+    background-color: #86130d;
+}
+
+.customModalFooter {
+    background-color: #444; /* Fondo del pie del modal */
+    border-top: 1px solid #555;
+}
+
+.btn-close {
+    filter: invert(1); /* Hace el botón de cerrar blanco */
+}
+/* index.module.css */
+
+.videoThumbnail {
+    width: 85%;  /* Ajusta el ancho de la imagen al contenedor */
+    height: auto;  /* Mantén la proporción de la imagen */
+    display: block;
+    margin: 0 auto;  /* Centra la imagen horizontalmente */
+    margin-bottom: 20px;
+    border-radius: 10px;  /* Añade bordes redondeados */
+    box-shadow: 0 4px 8px rgba(240, 73, 73, 0.5);
+    transition: transform 0.2s ease-in-out;  /* Añade una transición para el efecto de zoom */
+}
+
+.videoThumbnail:hover {
+    transform: scale(1.05);  /* Aplica un efecto de zoom cuando el cursor pasa sobre la imagen */
+}

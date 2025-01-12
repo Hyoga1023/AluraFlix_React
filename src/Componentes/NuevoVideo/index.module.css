@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(180deg, #000000 0%,
+        #1a0a0a 50%,
+        #660000 75%,
+        #9b1414 85%,
+        #e50914 100%
+    ) no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.container {
+    padding: 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.main {
+    flex: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+
+.form-label {
+    color: white;
+}
