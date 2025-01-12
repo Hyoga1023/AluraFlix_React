@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://hyoga1023.github.io/challenge_final_a/",
+  "homepage": "https://hyoga1023.github.io/Aluraflix_React/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
